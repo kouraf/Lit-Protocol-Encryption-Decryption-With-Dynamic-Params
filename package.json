@@ -1,0 +1,26 @@
+{
+  "name": "decrypt",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "encrypt": "bun run encrypt.ts",
+    "decrypt": "bun run decrypt.ts",
+    "server": "bun run server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^8.1.1",
+    "@lit-protocol/constants": "^8.0.8",
+    "@lit-protocol/encryption": "^7.3.1",
+    "@lit-protocol/lit-node-client": "^7.3.1",
+    "@lit-protocol/wrapped-keys": "^7.1.1",
+    "ethers": "^6.15.0",
+    "siwe": "^3.0.0"
+  }
+}
